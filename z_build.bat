@@ -1,3 +1,3 @@
-call gradle clean build
+call gradle clean build idea
 
 pause

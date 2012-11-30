@@ -1,10 +1,17 @@
 apply plugin: 'java'
-/*
 apply plugin: 'idea'
 
 versionMajor=1
 versionMinor=0
-versionBuild=9
+versionBuild=0
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile ('junit:junit:4.10');
+}
 
 idea {
     project {
@@ -41,7 +48,6 @@ idea {
                           <value>
                             <package name="" withSubpackages="true" static="true" />
                             <emptyLine />
-                            <package name="com.copyright" withSubpackages="true" static="false" />
                             <package name="com" withSubpackages="true" static="false" />
                             <package name="junit" withSubpackages="true" static="false" />
                             <package name="net" withSubpackages="true" static="false" />
@@ -90,4 +96,3 @@ idea {
         }
     }
 }
-*/

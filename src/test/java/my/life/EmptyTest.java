@@ -1,4 +1,6 @@
-package test.my.life;
+package my.life;
+
+import org.junit.Test;
 
 /**
  * Created with IntelliJ IDEA.
@@ -7,7 +9,10 @@ package test.my.life;
  * Time: 4.49
  * To change this template use File | Settings | File Templates.
  */
-public class FirstTest {
+public class EmptyTest {
 
+    @Test
+    public void zu() {
+    }
 
 }
