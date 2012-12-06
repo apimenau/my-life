@@ -1,10 +1,12 @@
-package my.life;
+package my.life.entity;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import my.life.entity.Cell;
 
 /**
  * Created with IntelliJ IDEA.

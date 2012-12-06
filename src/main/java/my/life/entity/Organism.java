@@ -1,28 +1,25 @@
-package my.life;
+package my.life.entity;
 
 import java.util.UUID;
 
 /**
+ * Организм.
  * Created with IntelliJ IDEA.
  * User: Andrei_Pimenau
  * Date: 30.11.12
- * Time: 9.33
+ * Time: 10.18
  * To change this template use File | Settings | File Templates.
  */
-public class Cell {
-    private String id = UUID.randomUUID().toString();
+public class Organism {
+    private Object id = UUID.randomUUID().toString();
     private boolean alive = true;
 
-    public String getId() {
+    public Object getId() {
         return id;
     }
 
     public boolean getAlive() {
         return alive;
-    }
-
-    public void kill() {
-        this.alive = false;
     }
 
     @Override
@@ -44,7 +41,6 @@ public class Cell {
 
     @Override
     public String toString() {
-        return "Cell id=" + this.id;
+        return "Organism id=" + this.id;
     }
-
 }
